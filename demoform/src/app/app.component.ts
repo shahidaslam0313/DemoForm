@@ -41,7 +41,7 @@ export class AppComponent implements OnInit {
   }
 
   removeEvent(i: number) {
-    this.getEvents.removeAt(i);
+      this.getEvents.removeAt(i);
   }
 
   submitForm(){
